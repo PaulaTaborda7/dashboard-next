@@ -14,6 +14,9 @@ export default function RootLayout({
       <body className={`${montserrat.className} antialiased`}> 
       {/* antialsed to improve the render */}
         {children}
+        <footer className='py-10 flex justify-center items-center'>
+          Hecho con ❤️ por{' Paula Andrea Taborda Montes '} 
+        </footer>
       </body>
     </html>
   );
